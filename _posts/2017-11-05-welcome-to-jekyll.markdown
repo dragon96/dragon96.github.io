@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 ---
 layout: post
 title:  "Welcome to Jekyll!"
