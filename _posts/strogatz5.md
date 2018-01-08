@@ -19,7 +19,7 @@ Once this is done, we classify the trajectories surrounding the eigen-lines and 
 
 The trajectory zooms toward the slow eigen-line (on a plane). If we think about these points in the eigenbasis (using the eigenvectors as our $x,y$ axes and scaling appropriately), then every point will have a fast and slow eigenvector component. In each time-step, the phase portrait moves more in the fast direction, so it approaches the slow "eigen-axis" faster.
 
-![Classification of fixed points](/assets/strogatz5_fastslow.png){:.center-image}
+![Fast and slow eigendirections](/assets/strogatz5_fastslow.png){:.center-image}
 
 #### **How to we think about stability in a system?**
 
