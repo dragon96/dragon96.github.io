@@ -25,6 +25,15 @@ categories: raw
 
  * Let $f_\mu$ be a function with fixed points $r_1, \cdots, r_{n}$. Let $g_\mu = f_\mu(f_\mu(x))$ have stable points $r_1,\cdots, r_{2n}$. Prove or disprove: if $\left(\frac12 (f_\mu^\prime)^2\right)_ {\mu} > 0$, then $\left(\frac12(g_\mu^\prime)^2\right)_ \mu > 0$ for $x=r_i$, where $i=1,2,\cdots, 2n$. (This will formally show that the function has period doubling bifurcations forever, and that the fixed points of $f$ will become unstable fixed points of $g$.)
 
+## Extra Links
+
+ * [How I found these notes](https://calculatedcontent.com/2015/04/01/why-deep-learning-works-ii-the-renormalization-group/)
+ * [Some exercises to help with Lyapunov exponents and superstability](https://www.math.ucdavis.edu/~romik/teaching-pages/mat119b/119b-hw7-solutions.pdf)
+ * [Same as above](https://www.math.ubc.ca/~andrewr/620341/assignments/assignment2_solutions.pdf)
+ * [Understanding the tent-map exercise](http://oldwww.ma.man.ac.uk/~pag/dynsyst/2-itineraries.pdf) Show that iterated application of the tent map does not lead to period doubling behavior, and that it transitions directly into chaos.
+ * [Connecting period-doubling cascades to chaos](https://arxiv.org/pdf/1002.3363.pdf) Paper by Yorke to possibly answer the second question above.
+ * [The Topology of Chaos: Alice in Stretch and Squeezeland (Chapter 2)](http://csc.ucdavis.edu/~chaos/courses/ncaso/Readings/ch2.pdf)
+ * [For understanding universality a little bit better](http://www.cns.gatech.edu/PHYS-4267/UFO.pdf)
 
 <!-- 
  Raw Notes:
