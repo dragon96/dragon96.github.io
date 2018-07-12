@@ -38,7 +38,7 @@ chaos](http://www.cns.gatech.edu/PHYS-4267/UFO.pdf), for understanding universal
 
  * I have still yet to understand the precise conditions in which period doubling occurs. The notes claim that $f$ as a differentiable, unimodal function with a quadratic tip is sufficient, but this doesn't seem necessary.
 
- * For the chaos generated from iterated application of the tent map, it is shown that the number of fixed points $N(p) \approx N_f(p)/p = 2^p/p$, where $N_f(p)$ is the total number of fixed points of $f^p$. (Note: Use $\sum_{q|p} q N(q) = N_f(p)$ to compute values for primes and powers of $2$.) The growth rate $h_P\lim_{p\to\infty} \frac1p \ln N(p) = \ln2$, which happens to be the Lyapunov exponent. Is this a coincidence? $h_P$ is also asserted to be the topological entropy. What is that?
+ * For the chaos generated from iterated application of the tent map, it is shown that the number of fixed points $N(p) \approx N_f(p)/p = 2^p/p$, where $N_f(p)$ is the total number of fixed points of $f^p$. (Note: Use $\sum_{q\mid p} q N(q) = N_f(p)$ to compute values for primes and powers of $2$.) The growth rate $h_P\lim_{p\to\infty} \frac1p \ln N(p) = \ln2$, which happens to be the Lyapunov exponent. Is this a coincidence? $h_P$ is also asserted to be the topological entropy. What is that?
 
 ## Extra Links
 
