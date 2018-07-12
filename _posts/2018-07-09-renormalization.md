@@ -2,17 +2,28 @@
 layout: post
 title: Renormalization Group in Iterated Maps
 date: 2018-07-09
-categories: raw
+categories: rawnotes
 ---
 
- * Primarily followed [these notes](https://arxiv.org/pdf/1210.2262.pdf).
+ * Primarily followed these notes: [Introduction to universality and renormalization
+group techniques](https://arxiv.org/pdf/1210.2262.pdf).
+ * Secondarily: [Universality in transitions to
+chaos](http://www.cns.gatech.edu/PHYS-4267/UFO.pdf), for understanding universality a little better.
+ * Third: [The Topology of Chaos: Alice in Stretch and Squeezeland (Chapter 2)](http://csc.ucdavis.edu/~chaos/courses/ncaso/Readings/ch2.pdf)
 
 ## Summary
 
  * Definition of a Lyapunov exponent. 
+   * "For one dimensional maps, it can be shown that Lyapunov exponents are independent of the initial condition $x_0$, except perhaps for a set of measure zero."
  * Period doubling behavior of logistic map $\mu x(1-x)$. Qualitative behavior depends on $\mu$. Convergent behavior for $x<3$, chaotic behavior for $x \approx 3.7$ or higher.
- * Notion of a superstable cycle
+ * Notion of a superstable cycle, although significance is not clear.
+ * The universal equation: $g(x) = \alpha g(g(-x/\alpha))$, with $g(0) = 1$ WLOG and $g(1) = -1/\alpha$.
  * Broad intuition about what the renormalization group is.
+ * Chaos is defined as satisfying: for any $J\subset I$, there exists an $N$ such that for all $n>N$, $f^n(J) = I$. This implies the following properties:
+   * Sensitivity to initial conditions. More precisely, there exists a $\delta$ for which for all $x$, $J\ni x$, $y\in J$, there is an $N$ such that $\mid f^N(x)-f^N(y)\mid>\delta$.
+   * Existence of dense orbits: In English, this means, that iterated application of $f$ on $x$ can become arbitrarily close to any $y$. Or: For any $A,B\subset I$, there is an $N$ such that $f^N(A) \cap B \neq \varnothing$.
+   * Has a set of unstable periodic points that is dense in its domain.
+ * The third set of notes elegantly answers exercise 2.6 in the first set of notes, showing that tent maps yield chaotic behavior, by using binary coding!
 
 ## Questions
 
@@ -25,6 +36,10 @@ categories: raw
 
  * Let $f_\mu$ be a function with fixed points $r_1, \cdots, r_{n}$. Let $g_\mu = f_\mu(f_\mu(x))$ have stable points $r_1,\cdots, r_{2n}$. Prove or disprove: if $\left(\frac12 (f_\mu^\prime)^2\right)_ {\mu} > 0$, then $\left(\frac12(g_\mu^\prime)^2\right)_ \mu > 0$ for $x=r_i$, where $i=1,2,\cdots, 2n$. (This will formally show that the function has period doubling bifurcations forever, and that the fixed points of $f$ will become unstable fixed points of $g$.)
 
+ * I have still yet to understand the precise conditions in which period doubling occurs. The notes claim that $f$ as a differentiable, unimodal function with a quadratic tip is sufficient, but this doesn't seem necessary.
+
+ * For the chaos generated from iterated application of the tent map, it is shown that the number of fixed points $N(p) \approx N_f(p)/p = 2^p/p$, where $N_f(p)$ is the total number of fixed points of $f^p$. (Note: Use $\sum_{q|p} q N(q) = N_f(p)$ to compute values for primes and powers of $2$.) The growth rate $h_P\lim_{p\to\infty} \frac1p \ln N(p) = \ln2$, which happens to be the Lyapunov exponent. Is this a coincidence? $h_P$ is also asserted to be the topological entropy. What is that?
+
 ## Extra Links
 
  * [How I found these notes](https://calculatedcontent.com/2015/04/01/why-deep-learning-works-ii-the-renormalization-group/)
@@ -32,8 +47,6 @@ categories: raw
  * [Same as above](https://www.math.ubc.ca/~andrewr/620341/assignments/assignment2_solutions.pdf)
  * [Understanding the tent-map exercise](http://oldwww.ma.man.ac.uk/~pag/dynsyst/2-itineraries.pdf) Show that iterated application of the tent map does not lead to period doubling behavior, and that it transitions directly into chaos.
  * [Connecting period-doubling cascades to chaos](https://arxiv.org/pdf/1002.3363.pdf) Paper by Yorke to possibly answer the second question above.
- * [The Topology of Chaos: Alice in Stretch and Squeezeland (Chapter 2)](http://csc.ucdavis.edu/~chaos/courses/ncaso/Readings/ch2.pdf)
- * [For understanding universality a little bit better](http://www.cns.gatech.edu/PHYS-4267/UFO.pdf)
 
 <!-- 
  Raw Notes:
