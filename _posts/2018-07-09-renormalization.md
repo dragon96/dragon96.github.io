@@ -2,7 +2,7 @@
 layout: post
 title: Renormalization Group in Iterated Maps
 date: 2018-07-09
-categories: rawnotes
+categories: raw
 ---
 
  * Primarily followed these notes: [Introduction to universality and renormalization
