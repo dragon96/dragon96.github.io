@@ -1,0 +1,24 @@
+---
+
+---
+@import "{{site.theme}}";
+
+.center-image { 
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.red,
+.todo {
+	color: #FF0000;
+}
+
+.hidetag,
+.solution,
+.hint {
+	border: 1px solid $grey-color-dark;
+	background-color: $grey-color-light;
+	color: $grey-color-light;
+	margin-bottom: 15px;
+}
