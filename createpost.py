@@ -13,7 +13,6 @@ import os
 import sys
 from datetime import datetime
 
-DRAFT_DIR = "unpublished/"
 CONTENT_DIR = "content/"
 JEKYLL_POST_DIR = "_posts/"
 
@@ -37,8 +36,7 @@ def get_abs_path(title, isDraft):
 	return os.path.join(JEKYLL_POST_DIR, get_rel_path(title, isDraft))
 
 def get_rel_path(title, isDraft):
-	subdir = DRAFT_DIR if isDraft else CONTENT_DIR
-	relPath = os.path.join(subdir, format_title(title))
+	relPath = os.path.join(CONTENT_DIR, format_title(title))
 	return relPath
 
 def check_file_exists(title, isDraft, overridePost):
