@@ -22,3 +22,8 @@
 	color: $grey-color-light;
 	margin-bottom: 15px;
 }
+
+.is-draft-url:link, 
+.is-draft-url:visited {
+	color: #666;
+}
