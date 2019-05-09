@@ -75,7 +75,7 @@ eqn:      $x$ for inline, $$x$$ for centered
 red:      <div class="red">text</div>"""
 		f.write(TEMPLATE)
 	print("Files created successfully!")
-	print("Meta-file is found at: %s" % get_abs_path(args.title, args.isDraft))
-	print("Content file is at: %s" % get_rel_path(args.title, args.isDraft))
+	print("The file that Jekyll cares about is at: %s" % mainPostFile)
+	print("The file to put content in is at: %s" % get_abs_path(args.title, args.isDraft))
 	print("Only the content file needs to be modified, as a pure markdown file.")
 	
