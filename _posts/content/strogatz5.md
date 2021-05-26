@@ -3,7 +3,7 @@ Chapter 5 was about linear systems, which was largely a review from differential
 
 #### **How do we think about linear systems?**
 
-Linear systems have scaling properties. This gives it the nice property that if there's a point $x$ such that $\dot{x}$ points in the same direction as $x$ (Read: $\dot{x} = c_1x$), then all $y = c_2x$ will forever point in the same direction. So the idea is to hunt for these points (which are the eigenvectors). 
+Linear systems have scaling properties. This gives it the nice property that if there’s a point $x$ such that $\dot{x}$ points in the same direction as $x$ (Read: $\dot{x} = c_1x$), then all $y = c_2x$ will forever point in the same direction. So the idea is to hunt for these points (which are the eigenvectors). 
 
 Once this is done, we classify the trajectories surrounding the eigen-lines and the stability of fixed points discovered. There are some edge cases with duplicate eigenvectors (degenerate systems) and complex eigenvalues (periodic behavior). 
 
@@ -21,7 +21,7 @@ There are two notions of stability: attracting points and Lyapunov stable points
 
 An **attracting** point is an $x$ such that for points sufficiently close to $x^\star$, the phase portrait eventually converges at $x^\star$ as $t\to \infty$. A **Lyapunov stable** point is an $x^\prime$ such that for points near $x^\prime$ stay close to $x^\prime$ for all time.
 
-It's pretty easy to come up with examples that satisfy both stability conditions or neither stability conditions. A example of a Lyapunov, but not attracting, stable point is the system 
+It’s pretty easy to come up with examples that satisfy both stability conditions or neither stability conditions. A example of a Lyapunov, but not attracting, stable point is the system 
 
 $$\dot{x} = 0, \\\dot{y} = -y.$$
 

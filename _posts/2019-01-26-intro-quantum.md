@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Introduction to Quantum Computing"
+title: "Quantum Computing Notes"
 categories: quantum
 date: 2019-01-26 
 ---
